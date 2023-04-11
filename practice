@@ -1,0 +1,9 @@
+mkdir github #github라는 디렉토리 만들기
+cd github #cd-디렉토리 이동
+git init #현재 디렉토리를 git 저장소 만들기
+#파일의 생성/변경/삭제 git인덱스에 추가(git add) git add practice.py
+#변경 결과를 로컬 저장소에 커밋(git commit)
+#파일이 추가되어 있는 지 확인(git status)
+#로컬 저장소를 밀어 원격 저장소에 반영(git push)
+#브랜치-현재 브랜치에는 *이 붙음 그 안에서 또 다른 브랜치를 만들고(git branch)
+#브랜치를 이동(git checkout) or 지점만들기 및 이동 git checkout-b subdir01
